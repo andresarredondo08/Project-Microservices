@@ -1,0 +1,20 @@
+server:
+  port: 8084
+
+spring:
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: medellinjvm@gmail.com
+    password: 1152214817JvM.
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
